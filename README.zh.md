@@ -20,7 +20,7 @@
 | 自定义视频源和渲染器 | 支持自定义的视频源和渲染器，可以不使用系统摄像头，使用自己构建的 camera 视频源，屏幕共享视频源，或者文件视频源等，可以更灵活地处理视频，比如添加美颜效果、滤镜等。 | 需要使用自定义的美颜库或者前处理库 开发者 App 中已经有自己的图像视频模块 开发者希望使用非 Camera 的视频源，如录屏数据 有些系统独占的视频采集设备，为了避免冲突，需灵活的设备管理策略 |
 
 ## 功能原理
-[API调用时序图](https://github.com/jinyeqing/README/blob/master/imag/1568254412236.png)
+![API调用时序图](https://github.com/jinyeqing/README/blob/master/imag/1568254412236.png)
 
 
 ## 为什么要使用 Agora 视频 SDK
@@ -87,7 +87,7 @@
 
 
 ## 常见问题
-*  常见问题可以参考 [FAQ]（https://docs.agora.io/cn/Video/faq）
+*  常见问题可以参考 [FAQ](https://docs.agora.io/cn/Video/faq)
 
 ## 联系我们
 * 产品的新手指南及完整的 [文档中心](https://docs.agora.io/cn/)
