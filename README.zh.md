@@ -1,8 +1,8 @@
 # Agora Video SDK Android Tutorial - 1to1
 
-## 是什么
+## Agora 视频 SDK 是什么
 
-### 视频通话 SDK Demo介绍
+### Demo 介绍
 视频通话 SDK 可实现一对一单聊、多人群聊，同时具备纯语音通话和视频通话功能。
 
 视频通话和视频互动直播不同。视频通话，不分主播和观众，所有用户都可自由发言，默认流畅和低延时优先，画质稍低，典型场景如多人视频会议；互动直播，用户区分主播和观众，只有主播可以自由发言，默认高画质优先，典型场景如互动课堂
@@ -24,16 +24,14 @@ Agora 视频 SDK 支持 iOS / Android / Windows / macOS 等多个平台，你可
 * [Agora-Windows-Tutorial-1to1](https://github.com/AgoraIO/Basic-Video-Call/tree/master/One-to-One-Video/Agora-Windows-Tutorial-1to1)
 * [Agora-macOS-Tutorial-Swift-1to1](https://github.com/AgoraIO/Basic-Video-Call/tree/master/One-to-One-Video/Agora-macOS-Tutorial-Swift-1to1)
 
-### 视频通话SDK主要功能和场景
 
- 主要功能       | 功能描述                                                                                  | 典型适用场景                                                                                             |
-|------------|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| 伴奏混音       | 将本地或在线的音频和用户声音，同时发送并播放给频道内其他用户                                                        | 在线合唱 音乐互动课堂                                                                                        |
-| 基础美颜       | 支持基础的美颜功能，包括设置美白、磨皮、祛痘、红润效果。                                                          | 视频聊天美颜                                                                                             |
-| 屏幕共享       | 把屏幕内容同步展示给频道内的其他用户，支持指定共享某个屏幕或窗口，同时支持指定共享区域。                                          | 互动课堂                                                                                               |
-| 修改音视频原始数据  | 可支持变声，支持获取媒体引擎的原始语音或视频数据，对原始数据进行处理                                                    | 聊天室变声 视频聊天美颜                                                                                       |
-| 自定义视频源和渲染器 | 支持自定义的视频源和渲染器，可以不使用系统摄像头，使用自己构建的 camera 视频源，屏幕共享视频源，或者文件视频源等，可以更灵活地处理视频，比如添加美颜效果、滤镜等。 | 需要使用自定义的美颜库或者前处理库 开发者 App 中已经有自己的图像视频模块 开发者希望使用非 Camera 的视频源，如录屏数据 有些系统独占的视频采集设备，为了避免冲突，需灵活的设备管理策略 |
+### Agora 视频 SDK 适用场景
+![视频通话 SDK 主要功能和场景](https://github.com/jinyeqing/README/blob/master/imag/%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9Dsdk%E5%8A%9F%E8%83%BD.png)
 
+如果你想了解更多实际应用案例，你也可以在这里查看：[Agora.io Usecase](https://github.com/AgoraIO-usecase)
+
+* [互动课堂](https://github.com/AgoraIO-Usecase/eEducation)
+* [一起 KTV](https://github.com/AgoraIO-Usecase/Online-KTV)
 
 ## 为什么要使用 Agora 视频 SDK
 ### (1)产品优势
@@ -95,7 +93,7 @@ Agora 视频 SDK 支持 iOS / Android / Windows / macOS 等多个平台，你可
       
 
 ### (4)实现音视频通话原理
-本节介绍SDK是如何实现音视频通话，选取一些关键步骤的代码示例做介绍。视频通话的 API 调用时序见下图：
+本节介绍 Agora 声网视频通话 SDK 是如何实现音视频通话，选取一些关键步骤的代码示例做介绍。视频通话的 API 调用时序见下图：
 ![API调用时序图](https://github.com/jinyeqing/README/blob/master/imag/1568254412236.png)
 
 * 初始化 RtcEngine
