@@ -5,7 +5,7 @@
 ### Demo 介绍
 视频通话 SDK 可实现一对一单聊、多人群聊，同时具备纯语音通话和视频通话功能。
 
-视频通话和视频互动直播不同。视频通话，不分主播和观众，所有用户都可自由发言，默认流畅和低延时优先，画质稍低，典型场景如多人视频会议；互动直播，用户区分主播和观众，只有主播可以自由发言，默认高画质优先，典型场景如互动课堂
+视频通话和视频互动直播不同。视频通话，不分主播和观众，所有用户都可自由发言，默认流畅和低延时优先，画质稍低，典型场景如多人视频会议；互动直播，用户区分主播和观众，只有主播可以自由发言，默认高画质优先，典型场景如互动课堂。
 
 这个开源示例项目是为了帮助开发者更好，更快捷地了解，学习，集成 Agora 视频 SDK，演示了如何快速集成 Agora 视频 SDK，实现1对1视频通话。
 
@@ -215,8 +215,8 @@ private void leaveChannel() {
 * 产品的新手指南及完整的 [文档中心](https://docs.agora.io/cn/)
 * SDK快速指南视频教程见 [视频指南](https://space.bilibili.com/237765579/video)
 * 如果在集成中遇到问题, 你可以到 [开发者社区](https://dev.agora.io/cn/) 提问
-* 如果需要售后技术支持, 你可以在[Agora Dashboard](https://dashboard.agora.io)提交工单
-* 如果发现了示例代码的 bug, 欢迎提交[issue](https://github.com/AgoraIO/Basic-Video-Call/issues)
+* 如果需要售后技术支持, 你可以在 [Agora Dashboard](https://dashboard.agora.io)提交工单
+* 如果发现了示例代码的 bug, 欢迎提交 [issue](https://github.com/AgoraIO/Basic-Video-Call/issues)
 
 ## 开源协议
 * The MIT License (MIT)
