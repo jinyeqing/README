@@ -2,7 +2,12 @@
 
 ## 是什么
 
-这个开源示例项目是为了帮助开发者更好，更快捷了解，学习，集成 Agora 视频 SDK，演示了如何快速集成 Agora 视频 SDK，实现1对1视频通话。
+### 视频通话 SDK Demo介绍
+视频通话 SDK 可实现一对一单聊、多人群聊，同时具备纯语音通话和视频通话功能。
+
+视频通话和视频互动直播不同。视频通话，不分主播和观众，所有用户都可自由发言，默认流畅和低延时优先，画质稍低，典型场景如多人视频会议；互动直播，用户区分主播和观众，只有主播可以自由发言，默认高画质优先，典型场景如互动课堂
+
+这个开源示例项目是为了帮助开发者更好，更快捷地了解，学习，集成 Agora 视频 SDK，演示了如何快速集成 Agora 视频 SDK，实现1对1视频通话。
 
 在这个示例项目中主要包含了以下功能：
 
@@ -11,8 +16,16 @@
 * 关闭摄像头和开启摄像头；
 * 切换前置摄像头和后置摄像头；
 
+你也可以在这里查看进阶版的示例项目：[OpenVideoCall-Android](https://github.com/AgoraIO/Basic-Video-Call/tree/master/Group-Video/OpenVideoCall-Android)
 
-### 功能和场景
+Agora 视频 SDK 支持 iOS / Android / Windows / macOS 等多个平台，你可以查看对应各平台的示例项目：
+
+* [Agora-iOS-Tutorial-Swift-1to1](https://github.com/AgoraIO/Basic-Video-Call/tree/master/One-to-One-Video/Agora-iOS-Tutorial-Swift-1to1)
+* [Agora-Windows-Tutorial-1to1](https://github.com/AgoraIO/Basic-Video-Call/tree/master/One-to-One-Video/Agora-Windows-Tutorial-1to1)
+* [Agora-macOS-Tutorial-Swift-1to1](https://github.com/AgoraIO/Basic-Video-Call/tree/master/One-to-One-Video/Agora-macOS-Tutorial-Swift-1to1)
+
+### 视频通话SDK主要功能和场景
+
  主要功能       | 功能描述                                                                                  | 典型适用场景                                                                                             |
 |------------|---------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
 | 伴奏混音       | 将本地或在线的音频和用户声音，同时发送并播放给频道内其他用户                                                        | 在线合唱 音乐互动课堂                                                                                        |
